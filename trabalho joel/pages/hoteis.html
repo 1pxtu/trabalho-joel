@@ -1,27 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <script src="../js/script.js"></script>
+    <link rel="shortcut icon" href="images/aviao2.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <title>TwoBago</title>
 </head>
-<body>
+<body>   
     <nav class="menu">
-        <a href="../index.html"><img src="../images/aviao.png" alt="Logo"></a>
+        <a href="../index.html"><img src="../images/aviao2.png" alt="Logo"></a>
 
-        <a href="index.html"><img src="images/aviao2.png" alt="Logo"></a>
-        <h2>DoisBago</h2>
+        <h2 class="TwoBagos">TwoBagos</h2>
+
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <strong><button onclick="myFunction()" class="dropbtn">Menu</button></strong>
             <div id="myDropdown" class="dropdown-content">
-                <a href="pages/hoteis.html" class="op">Hoteis</a>
-                <a href="pages/contato.html" class="op">Contato</a>
-                <a href="pages/sobre.html" class="op">Sobre</a>
+                <a href="../pages/hoteis.html" class="op">Hoteis</a>
+                <a href="../pages/contato.html" class="op">Contato</a>
+                <a href="../pages/sobre.html" class="op">Sobre</a>
             </div>
         </div> 
     </nav>
+
+    <div class="base">
+        
+        <div class="ideia">
+
+            <div class="pesquisa">
+
+                <h4>Pesquise viagens</h4>
+
+                <input type="text" class="search" placeholder=" Pesquisar"/>
+
+            </div>
+
+            <div class="conteudo">
+
+            <div class="base1">
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="../images/hotel.jpg" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Hotel</h3>
+                <h5><img src="../images/star.jpg" width="30px" height="25px">5.0</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 8.000 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="../images/hotel.jpg" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Hotel</h3>
+                <h5><img src="../images/star.jpg" width="30px" height="25px">3.5</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 6.500 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="../images/hotel.jpg" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Hotel</h3>
+                <h5><img src="../images/star.jpg" width="30px" height="25px">2.0</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 4.400 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="../images/hotel.jpg" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Hotel</h3>
+                <h5><img src="../images/star.jpg" width="30px" height="25px">1.0</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 2.900 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+            </div>
+        </div>
+        <div class="base2">
+            
+            <div class="maps">
+
+                </div>
+
+            </div>
+    </div>
+</div>
+
+    <div class="lateral">
+
+        <p>Filtros</p>
+        <br>
+        <form method="get">
+
+            <p>Paises</p><select name="paises" form="paises">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="espanha">Espanha</option>
+                <option value="portugal">Portugal</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canadá</option>
+                <option value="russia">Rússia</option>
+                <option value="maldivas">Maldivas</option>
+
+                </select>
+        <br>             
+            <p>Preços</p><input placeholder="Insira o preço..."></input>
+        <br>
+            <p>Avaliação</p><select name="av" form="av">
+                <option value="1">5 Estrelas</option>
+                <option value="2">4 Estrelas</option>
+                <option value="3">3 Estrelas</option>
+                <option value="4">2 Estrelas</option>
+                <option value="5">1 Estrela</option>
+                <option value="0">0 Estrela</option>
+
+                </select>
+                <br>
+        </form>
+
+        <button value="submit" style="margin-top: 5%;"> Filtrar </button>
+
+    </div>
+    </div>
+
+    
 </body>
 </html>

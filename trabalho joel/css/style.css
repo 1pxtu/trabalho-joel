@@ -4,20 +4,20 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: #f3f4f5;
 }
 
 .menu{
     width: 100%;
-    height: 65px;
-    background: linear-gradient(45deg, rgb(208, 0, 255), rgb(255, 0, 111));
+    height: 83px;
+    background-color: rgb(1, 24, 124);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .menu h2{
-    color: #FFF;
+    color: black;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ body{
 }
 
 .dropbtn {
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 20px;
     font-size: 1.4em;
     border: none;
@@ -79,7 +79,9 @@ body{
     background-color: #f3f4f5;
 }
   
-.show {display:block;}
+.show {
+    display:block;
+}
 
 .base {
     width: 100%;
@@ -91,7 +93,7 @@ body{
 
 .lateral {
     width: 20vw;
-    height: 100vh;
+    height: 150%;
     background-color: #f3f4f5;
     text-align: center;
     padding: 10px;
@@ -103,27 +105,30 @@ body{
 
 .lateral select{
     width: 100px;
-    background-color: #444;
-    color: white;
-    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
     cursor: pointer;
 }
 
 .lateral input{
     width: 130px;
-    background-color: #444;
-    color: white;
-    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border: none;
+    padding: 6px;
 }
 
 .lateral button{
-    background-color: #444;
-    color: #f3f4f5;
-    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+    color: #000000;
+    border-radius: 4px;
     width: 100px;
     height: 40px;
     cursor: pointer;
     font-size: medium;
+    border: none;
 }
 
 .lateral p{
@@ -132,25 +137,39 @@ body{
 }
 
 .pesquisa{
+    display: flex;
+    justify-content: center;
     margin: 5px;
     width: 88vw;
     background-color: rgb(255, 255, 255);
     height: 7vh;
     padding-top: 5px;
-    display: flex;
-    justify-content: space-between;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(124, 116, 116);
-    
 
 }
-
-.pesquisa 
 
 .conteudo{
     width: 90vw;
     background-color: #f3f4f5;
+    display: flex;
+}
+
+.pesquisa .search{
+    margin-top: 16px;
+    width: 15vw;
+    height: 3vh;
+    border-radius: 6px;
+    background-color: rgb(196, 196, 196);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 2px;
+}
+
+.pesquisa h4{
+    margin-right: 20px;
+    margin-top: 22px;
 }
 
 .passagem{
@@ -164,7 +183,6 @@ body{
     justify-content: space-between;
     border-radius: 10px;
     border: #444 4px;
-
 }
 
 .classificacao{
@@ -205,15 +223,11 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-style: bold;
-    box-shadow: 5px 5px 5px rgb(22, 21, 21);
+    box-shadow: 2px 2px 2px rgb(22, 21, 21);
     pointer-events: all;
     cursor: pointer;
     text-align: center;
     padding: 0%;
-}
-
-.passagem:hover{
-    box-shadow: 5px 5px 5px rgb(109, 103, 103);
 }
 
 .passagem button:hover{
@@ -247,10 +261,33 @@ h6 {
     border: #444 2px solid;
     cursor: pointer;
 }
-.pesquisa input{
-    width: 15vw;
-    height: 3vh;
-    border-radius: 10px;
-    background-color: #444;
-    color: white;
+
+.TwoBagos{
+    background-image: linear-gradient(to left, rgb(208, 0, 255), rgb(255, 0, 111));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif, bold;
+    font-size: xx-large;
+    color: #000;
+    color: #000;
+    -webkit-text-stroke: 0.75px white;
+}
+
+.ideia{
+    width: 90vw;
+    height: 100vh;
+    background-color: #e7e8e9;
+}
+
+.base1{
+    padding: 10px;
+    width: 53vw;
+    background-color: #e7e8e9;
+}
+
+.base2{
+    padding: 20px;
+    width: 53vw;
+    background-color: #e7e8e9;
+
 }
