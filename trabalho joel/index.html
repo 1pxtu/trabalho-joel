@@ -12,7 +12,9 @@
 <body>   
     <nav class="menu">
         <a href="index.html"><img src="images/aviao2.png" alt="Logo"></a>
+
         <h2>DoisBago</h2>
+
         <div class="dropdown">
             <strong><button onclick="myFunction()" class="dropbtn">Menu</button></strong>
             <div id="myDropdown" class="dropdown-content">
@@ -21,9 +23,151 @@
                 <a href="pages/sobre.html" class="op">Sobre</a>
             </div>
         </div> 
-            
-        
     </nav>
+
+    <div class="base">
+
+        <div class="conteudo">
+
+            <div class="pesquisa">
+
+                <h4>Pesquise viagens</h4>
+
+                <input type="text" placeholder="Pesquisar"/>
+
+            </div>
+
+
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="images/aviao.png" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Viagem para Lugar</h3>
+                <h5><img src="images/star.jpg" width="30px" height="25px">4.5</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 10.000 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="images/aviao.png" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Viagem para Lugar</h3>
+                <h5><img src="images/star.jpg" width="30px" height="25px">4.5</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 9.000 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="images/aviao.png" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Viagem para Lugar</h3>
+                <h5><img src="images/star.jpg" width="30px" height="25px">4.5</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 3.400 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+
+            </div>
+            <div class="passagem">
+
+                <div class="hotel">
+
+                <img src="images/aviao.png" id="aviao" width="150px" height="150px">
+
+                </div>
+
+                <div class="classificacao">
+                <h3>Viagem para Lugar</h3>
+                <h5><img src="images/star.jpg" width="30px" height="25px">4.5</h5>
+                <p>descrição</p>
+                <p>Avaliação</p>
+                </div>
+
+                <div class="comprar">
+                    <h6>LUGAR</h6>
+                    <h4 style="color:green">R$ 2.900 </h4>
+                    <button>Ver oferta ></button>                 
+                </div>
+            </div>
+    </div>
+
+    <div class="lateral">
+
+        <p>Filtros</p>
+        <br>
+        <form method="get">
+
+            <p>Paises</p><select name="paises" form="paises">
+                <option value="brasil">Brasil</option>
+                <option value="argentina">Argentina</option>
+                <option value="espanha">Espanha</option>
+                <option value="portugal">Portugal</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canadá</option>
+                <option value="russia">Rússia</option>
+                <option value="maldivas">Maldivas</option>
+
+                </select>
+        <br>             
+            <p>Preços</p><input placeholder="Insira o preço..."></input>
+        <br>
+            <p>Avaliação</p><select name="av" form="av">
+                <option value="1">5 Estrelas</option>
+                <option value="2">4 Estrelas</option>
+                <option value="3">3 Estrelas</option>
+                <option value="4">2 Estrelas</option>
+                <option value="5">1 Estrela</option>
+                <option value="0">0 Estrela</option>
+
+                </select>
+                <br>
+        </form>
+
+        <button value="submit" style="margin-top: 400%;"> Filtrar </button>
+
+    </div>
+
+    </div>
+
     
 </body>
 </html>
