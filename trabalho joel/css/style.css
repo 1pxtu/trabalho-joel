@@ -185,6 +185,7 @@ body{
     border: #444 4px;
 }
 
+
 .classificacao{
     width: 15vw;
     height: 15vh;
@@ -289,5 +290,17 @@ h6 {
     padding: 20px;
     width: 53vw;
     background-color: #e7e8e9;
+    text-align: center;
+}
+
+.sobre{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #e7e8e9;
+    height: 90vh;
+}
+
+.sobre marquee{
+    padding: 30px;
 
 }
